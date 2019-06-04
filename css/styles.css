@@ -1,12 +1,57 @@
 body {
     font-size: 18px;
-    width: 1440px;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
 }
 
 .Top-Container {
+  position: relative;
+  height: 500px;
   background-image: url("/images/bg-hero-desktop.svg");
+  
 }
-.btn {
+#inner-container{
+  position: relative;
+  top: 70px;
+  left: 30px;
+}
+.build {
+  float: left;
+  width: 50%;
+}
+.grow, .flowing, .Users {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.grow-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.flowing-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.users-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.mockups {
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    width: 35%;
+    margin-left: 400px;
+}
+.btncom {
     background: #f00098;
     background-image: -webkit-linear-gradient(top, #f00098, #f00098);
     background-image: -moz-linear-gradient(top, #f00098, #f00098);
@@ -21,6 +66,36 @@ body {
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    position: absolute;
+    left: 30px;
+    bottom: 60px;
+  }
+  
+  .btncom:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .btn {
+    background: #f00098;
+    background-image: -webkit-linear-gradient(top, #f00098, #f00098);
+    background-image: -moz-linear-gradient(top, #f00098, #f00098);
+    background-image: -ms-linear-gradient(top, #f00098, #f00098);
+    background-image: -o-linear-gradient(top, #f00098, #f00098);
+    background-image: linear-gradient(to bottom, #f00098, #f00098);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
   }
   
   .btn:hover {

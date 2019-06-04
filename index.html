@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -17,36 +17,41 @@
 <body>
 
   <div class="Top-Container">
-    <img src="images/logo.svg" alt="logo">
-    <img src="images/illustration-mockups.svg" alt="mockups">
-  <h1>Build The Community Your Fans Will Love</h1>
-     
+        <img src="images/logo.svg" alt="logo">
+        <img class="mockups" src="images/illustration-mockups.svg" alt="mockups">
+    <div id="inner-container">
+      <h1>Build The Community</h1>
+      <h1>Your Fans Will Love.</h1>
+      <p class="build">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+      Create connections with your users as you engage in genuine discussion. </p>
+   </div>
+      <a class="btncom" href="mailto:briankaty1@blueyonder.co.uk"> Get Started For Free</a>
+    
 
-  <p>re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. </p>
-
-  <a class="btn" href="mailto:briankaty1@blueyonder.co.uk"> Get Started For Free</a>
-  
-
-</div>
+  </div>
   <div class="Middle-Container">
       
-     
-    <h2>Grow Together</h2> 
+   <div class="grow">
+     <img class="grow-img" src="images/illustration-grow-together.svg" alt="grow together">
+      <h2>Grow Together</h2> 
     
       <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
         Think of the insightful conversations you miss out on with a feedback form.</p>  
-    
+    </div>
+    <div class="flowing">
+      <img class="flowing-img" src="images/illustration-flowing-conversation.svg" alt="flowing conversation">
      <h2>Flowing Conversations</h2> 
     
       <p> You wouldn't paginate a conversation in real life, so why do it online? Our threads 
       have just-in-time loading for a more natural flow.</p>
-    
+    </div>
+    <div class="Users">
+      <img class="users-img" src="images/illustration-your-users.svg" alt="your users">
       <h2>Your Users</h2> 
     
       <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
         This means, once signed in to your app, your users can start chatting immediately.</p> 
-    
+    </div>
     
   </div>
   <div class="Bottom-Container">

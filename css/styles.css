@@ -44,6 +44,17 @@ h1, h2 {
     float: right;
     margin-left: 30px;
 }
+.bottom-container {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.bottom-button {
+  color: black;
+  background-color: white;
+  text-align: center;
+  /* margin: 100px auto; */
+}
 .mockups {
     position: absolute;
     top: 60px;

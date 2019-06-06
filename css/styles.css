@@ -8,6 +8,10 @@ body {
 h1, h2 {
   font-family: 'Poppins', sans-serif;
 }
+td {
+  padding: 10px;
+  
+}
 
 .Top-Container {
   position: relative;
@@ -62,6 +66,13 @@ h1, h2 {
     width: 35%;
     margin-left: 400px;
 }
+.contact-details {
+  width: 350px;
+  text-align: left;
+  margin-top: 170px;
+  margin-left: 30px;
+}
+
 .btncom {
     background: #f00098;
     background-image: -webkit-linear-gradient(top, #f00098, #f00098);

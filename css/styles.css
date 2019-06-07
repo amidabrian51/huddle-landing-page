@@ -49,6 +49,7 @@ td {
     margin-left: 30px;
 }
 .bottom-container {
+  display: flex;
   text-align: center;
   background-color: black;
   color: white;
@@ -67,10 +68,13 @@ td {
     margin-left: 400px;
 }
 .contact-details {
-  width: 350px;
-  text-align: left;
-  margin-top: 170px;
-  margin-left: 30px;
+  flex: 1;
+}
+.about-table {
+  flex: 1;
+}
+.copyright {
+  flex: 1;
 }
 
 
